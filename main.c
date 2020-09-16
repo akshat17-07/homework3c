@@ -11,15 +11,15 @@
 // this function would calculate the sum of digits
 int digit_sum(int n) {
 
-// base case
-if (n==0){
-  return n;
-}
+  // base case
+  if (n==0){
+    return n;
+  }
 
-//Reccurtion
-else{
+  //Recurtion
+  else{
   return (n%10 + digit_sum(n/10));
-}
+  }
 }
 
 int main ()
